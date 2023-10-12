@@ -41,13 +41,13 @@
 @media screen  and (max-width:680px){
     .background-image{
     position: absolute;
-    left:-40%;
-    padding-top: 45% ;
+    left:-25%;
+    padding-top: 50% ;
     
 }
    .background-image h2{
-    font-size:5rem;
-    padding-left: 4rem;
+    font-size:4rem;
+    /* padding-left: 2rem; */
         
     
 }

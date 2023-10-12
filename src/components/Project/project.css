@@ -77,22 +77,34 @@
    
 }
  .project-data .project-image{
-    width:700px;
+    width:600px;
     height: 400px;
     margin-bottom: 30px;
    
     
 }
  .project-data .project-image img{
-    width:700px ;
+    width:600px ;
     height: 250px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 } 
  .main-text{
     text-align: center;
+    position: relative;
+    left:-40px;
+   
+
 
    
+}
+.project-text{
+ display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+
 }
 .demolink{
 
