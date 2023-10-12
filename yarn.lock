@@ -1264,11 +1264,6 @@
     "object.assign" "^4.1.4"
     "object.values" "^1.1.6"
 
-"kit@^0.1.2":
-  "integrity" "sha512-EX1GyjQywGPmvODloVmkDurtDCX/F7OsIP7f0KytfG2hnsl3EVE028Fj4HOw40Nqwy1yJlK/oW95+NznTGalRQ=="
-  "resolved" "https://registry.npmjs.org/kit/-/kit-0.1.2.tgz"
-  "version" "0.1.2"
-
 "levn@^0.4.1":
   "integrity" "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="
   "resolved" "https://registry.npmjs.org/levn/-/levn-0.4.1.tgz"
