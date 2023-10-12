@@ -1,12 +1,8 @@
-// import { BrowserRouter as Router, Link } from "react-router-dom"
+
 import { useState } from "react";
 import "./nav.css"
-import { BiMenu } from "react-icons/Bi";
-import{FaTimes} from "react-icons/Fa"
 
-// import { Icon } from "react-icons-kit";
-// import { menu } from "react-icons-kit/iconic/menu";
-// import { x } from "react-icons-kit/iconic/x";
+
 export default function Nav() {
     const [toggle, setToggle] = useState(false)
     const handleToggle = () => {
@@ -43,7 +39,8 @@ export default function Nav() {
             </li>
           </ul>
           <div className="toggle-icon" onClick={handleToggle}>
-            {toggle ? <FaTimes />:<BiMenu />}
+            {toggle ? 
+              <i class="fa fa-times" aria-hidden="true"></i>  :  <i class="fa fa-bars" aria-hidden="true"></i> }
           </div>
         </nav>
       </div>
