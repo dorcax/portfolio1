@@ -1,34 +1,33 @@
 import "./footer.css"
-import { BsTwitter, BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/Bs"
-import{FaArrowUp} from "react-icons/Fa"
 export default function Footer() {
     return (
       <div className="footer-container">
         <div className="footer-submain">
           <div className="footer-socio-icons">
             <div className="footer-icon ">
-              <a href="">
-                <BsTwitter className="icon twitter" />
+              <a href="" className="icon twitter">
+                <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
             <div className="footer-icon ">
-              <a href="">
-                <BsFacebook className="icon  facebook" />
+              <a href="" className="icon facebook">
+                <i class="fa-brands fa-facebook"></i>
               </a>
             </div>
             <div className="footer-icon ">
-              <a href="">
-                <BsGithub className="icon github " />
+              <a href="" className="icon github">
+               
+                <i class="fa-brands fa-github"></i>
               </a>
             </div>
             <div className="footer-icon ">
-              <a href="">
-                <BsInstagram className="icon instagram " />
+              <a href="" className="icon instagram">
+                <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
             <div className="footer-icon ">
-              <a href="">
-                <BsLinkedin className="icon twitter" />
+              <a href="" className="icon linkedin">
+                <i class="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>
@@ -38,7 +37,7 @@ export default function Footer() {
           </div>
           <div className="footer-pointer">
             <a href="">
-              <i class="fa fa-arrow-up" aria-hidden="true" ></i>
+              <i class="fa fa-arrow-up" aria-hidden="true"></i>
             </a>
           </div>
         </div>
