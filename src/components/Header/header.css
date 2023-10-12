@@ -1,0 +1,61 @@
+.container-header{
+    background: url(../../assets/background6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:800px;
+    overflow: hidden;
+    position: relative;
+    
+    
+
+    
+    
+}
+.background-image{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20% ;
+    
+}
+.background-image h2{
+    text-transform: capitalize;
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    
+}
+.background-image p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: 1;
+    /* font-weight: 400; */
+    /* margin-left: 8rem; */
+    
+}
+/* ............................medis queries(medium devics) */
+@media screen  and (max-width:680px){
+    .background-image{
+    position: absolute;
+    left:-40%;
+    padding-top: 45% ;
+    
+}
+   .background-image h2{
+    font-size:5rem;
+    padding-left: 4rem;
+        
+    
+}
+.background-image p{
+    font-size: 1.8rem;
+    line-height: 1.2;
+    padding-left: 4rem;
+    
+    
+}
+}

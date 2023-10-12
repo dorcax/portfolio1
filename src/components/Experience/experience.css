@@ -1,0 +1,52 @@
+.container-experience{
+    background-color:#f1f1f1;
+    /* height: 800px; */
+     overflow: hidden;
+}
+.container-experience h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.tech-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20%;
+    margin: 20px 30px;
+
+}
+.techExp .tech{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.company-logo .company-text{
+    font-size: 1.4rem;
+}
+.company-logo img{
+    padding-top: 20px;
+}
+@media screen  and (max-width:680px){
+
+ .container-experience{
+    
+   padding-bottom: 50px;
+}
+.tech-main{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 10%;
+
+}
+.techExp .tech,.company-logo .company-text{
+   
+    text-align: center;
+}
+.tech-main img{
+    width: 120px;
+}
+
+
+}

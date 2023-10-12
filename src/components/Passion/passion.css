@@ -1,0 +1,85 @@
+.passion-main{
+    background-color:#36454F;
+    /* height: 680px */
+       overflow: hidden;
+}
+.passion-text{
+    text-align: center;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+}
+.passion-image .passion-img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    /* grid-template-columns: repeat(3,1fr); */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 40px 0 40px;
+    
+
+}
+.passion-front-end{
+    margin-top: 3rem;
+    background-color:#0a122abe;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+    
+
+}
+.passion-front-end img{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.passion-front-end h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+}
+.passion-front-end p{
+    color: #fff;
+    padding:14px;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+@media screen  and (max-width:680px){
+    .passion-text{
+   
+    padding-bottom: 2rem;
+   
+    
+}
+    .passion-image .passion-img{  
+    grid-template-columns: repeat(1,1fr);
+      gap: 4px;
+      
+}
+.passion-front-end h2{
+   
+    font-size: 24px;
+
+}
+.passion-front-end p{
+    color: #fff;
+    padding:14px;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
+}

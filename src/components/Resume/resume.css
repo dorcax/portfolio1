@@ -1,0 +1,36 @@
+
+.resume-container {
+    background-image: url("../../assets/laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    /* background-position: fixed; */
+     overflow: hidden;
+}
+.resume-img{
+    text-align: center;
+    color: #fff;
+    padding-top: 10% ;
+}
+
+.resume-img h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    /* padding: 15px; */
+
+}
+.resume-img button{
+    padding: 25px 45px;
+    text-transform: capitalize;
+    font-size: 25px;
+    background-color: #36454F;
+    color: #fff;
+    border: none;
+}
+.resume-img button:hover{
+    background-color: #fff;
+    color: #36454F;
+    font-size: 22px;
+}
+/* how to add ddd */
