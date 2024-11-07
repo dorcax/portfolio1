@@ -3,23 +3,22 @@ export default function ProjectImage({name,github,description,demolink,img,alt})
         <>
             <div className="image-container">
                 <div className="project-image">
-                    <div>
-                       heooooo1122
-                    </div>
-                     <div>
-                        hello2333
-                     </div>
-                    {/* <img src={img} alt={alt}  />
-                    <div className="main-text">
-                        <div className="project-text">
+                    <div className="project-text">
+                    
                         <h2>{name}</h2>
                         <p>{description}</p>
-                    </div>
-                    <div className="demolink">
+                    
+                        <div className="demolink">
                             <a href={demolink}>view demo</a>
                             <a href={github}>source code</a>
-                        </div> */}
-                    {/* </div>/ */}
+                        </div> 
+                    </div>
+                     <div className="project-image2">
+                        {/* <div></div> */}
+                     <img src={img} alt={alt}  width={200}/>
+                     </div>
+                    
+                    
                    
                 </div>
         </div>
