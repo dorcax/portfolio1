@@ -1,7 +1,14 @@
 .container-experience{
-    background-color:#f1f1f1;
-    /* height: 800px; */
-     overflow: hidden;
+    width: 100%;
+    max-width: 100%; /* Full width by default */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem; /* Add padding for better spacing */
+    padding-right: 2rem;
+    box-sizing: border-box;
+    overflow :hidden;
+    position: relative;
+     
 }
 .container-experience h2{
     text-transform: uppercase;
@@ -10,24 +17,27 @@
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 30px;
+    color:white;
 }
 .tech-main{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20%;
-    margin: 20px 30px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 14px;
+   display: flex; /* Use flex for larger screens */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
-.techExp .tech{
-    font-size: 1.4rem;
-    margin-bottom: 10px;
+.tech-main img {
+    width: 100px; /* Set image size */
+    margin-bottom: 1rem; /* Space below images */
 }
-.company-logo .company-text{
-    font-size: 1.4rem;
-}
-.company-logo img{
-    padding-top: 20px;
-}
+
 @media screen  and (max-width:680px){
 
  .container-experience{

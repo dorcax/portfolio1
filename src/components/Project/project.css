@@ -1,7 +1,15 @@
 .container-project{
-    background-color: gainsboro;
-    padding: 20px ;
-    overflow: hidden;
+    
+     width: 100%;
+     max-width: 100%; /* Full width by default */
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 2rem; /* Add padding for better spacing */
+     padding-right: 2rem;
+     box-sizing: border-box;
+     overflow :hidden;
+     position: relative;
+    
 
 }
 .mainproject h2{
@@ -11,18 +19,20 @@
     text-transform: capitalize;
     text-align: center;
 }
-.project-data {
+/* .project-data {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-template-columns: repeat(2,400px);
     gap: 10px;
     justify-content: center;
     align-items: center;
 
-}
+} */
 .project-data .project-image{
     width:400px;
     height: 400px;
-    background-color: rgba(128, 128, 128, 0.219);
+    display: grid;
+    grid-template-columns:minmax(200px,1fr)
+
 
   
     

@@ -5,25 +5,31 @@ import "./passion.css"
 export default function Passion() {
     return (
         <div className="container-passion" id="passion">
-            <div className="passion-main">
+            <div className="passion-container">
                 <div className="passion-text">
-                    <h2>what i'm passionate about 🤗</h2>
+                    <h2>services</h2>
                 </div>
                 <div className="passion-image">
                     <div className="passion-img">
                         <div className="passion-front-end">
-                            <img src={frontend} alt="images" />
-                            <h2>frontend development</h2>
+                           <div className="content">
+                           <div className="image-dev"> <img src={frontend} alt="images" />
+                           <h2>frontend development</h2></div>
                             <p>I love to create high quality code  which  is suitable for the client to use </p>
+                           </div>
                         </div>
                         <div className="passion-front-end">
-                            <img src={backend}  alt="backend" />
-                            <h2>backend development</h2>
+                           <div className="image-dev">
+                           <img src={backend}  alt="backend" />
+                           <h2>backend development</h2>
+                           </div>
                             <p>I love to  create dynamic and scaleable website for users through the Backend/severside </p>
                         </div>
                         <div className="passion-front-end">
-                            <img src={mentor} alt="mentor" />
-                            <h2>mentorship</h2>
+                           <div className="image-dev">
+                           <img src={mentor} alt="mentor" />
+                           <h2>mentorship</h2>
+                           </div>
                             <p>I also love to help people in the  community who  have problems or challenges in coding </p>
                         </div>
                     </div>

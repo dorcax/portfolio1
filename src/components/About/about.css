@@ -1,54 +1,124 @@
-.about-main{
- background-color: gainsboro;
-  overflow: hidden;
- 
- 
- 
+
+
+
+/* Basic container styling */
+.container {
+    width: 100%;
+    max-width: 100%; /* Full width by default */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* Add padding for better spacing */
+    padding-right: 1rem;
+    box-sizing: border-box;
+    overflow :hidden;
+    position: relative;
 }
+
+
+
+
 .about-container{
-    /* width: 100%; */
     padding-top:3rem ;
-    /* margin-left:  20%; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* border: 2px solid white; */
+    padding: 80px;
+    gap: 80px;
+    
+
    
    
 } 
-.about-container h2{
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: 400;
+.about-section{
+    border:5px solid #31b1cb;
+    width:250px;
+    height: 300px;
+    border-radius: 10px; 
+    position: relative;
+    
 }
-.about-me{
+.about-section:after{
+    content: "";
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 250px;
+    height: 300px;
+    right: 15px;
+    bottom: 15px;
     background: url("../../assets/me2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin: 40px auto;
+
+
 }
-.about-text{
-    /* width: 400px; */
-   text-align: center;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+.about-container h2{
+    text-transform: uppercase;
    
-}
-.about-text .text{
-    width: 60%;
-   font-size: 24px;
-   padding: 15px;
-   font-weight: 400;
-   margin-bottom: 25px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: white;
+    padding:10px 0px;
 }
 
-.about-text .favourite{
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 30px;
+.about-text{
+     width: 500px; 
+   text-align:start;
+   color: white;
+   font-size: 18px;
+ 
+   
+}
+.about-text .hire{
+    text-transform: uppercase;
+    padding: 12px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(15,15,119,1) 50%);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: medium;
+    margin:20px 20px  0 0;
+    
+
+}
+
+  .about-text .resume {
+    text-transform: uppercase;
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    width: 200px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.about-text .resume::before {
+    content: '';
+    position: absolute;
+    top: -2px; /* Adjust based on desired border thickness */
+    left: -6px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 50%, rgba(15,15,119,1) 100%);
+    z-index: -1;
+    border-radius: 4px; /* Optional, for rounded corners */
+}
+
+.about-text .resume::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black; /* Matches the button background */
+    z-index: -2;
+    border-radius: 4px; /* Same radius as ::before for a seamless effect */
 }
 
 

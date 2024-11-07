@@ -9,18 +9,18 @@ import Footer from "./components/Footer/footer.jsx"
 
 export default function App() {
   return (
-    <>
+    <div className="app-container">
   
      <Header />
       <About />
+      <Project />
       <Passion />
       <Experience />
-      <Resume />
-      <Project />
-      <Contact />
+      {/* <Resume /> */}
+     
       <Footer />
 
       
-    </>
+    </div>
   )
 }

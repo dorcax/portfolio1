@@ -3,13 +3,21 @@ import Nav from "./nav"
 // import MobileNav from "./mobilenav"
 export default function Header() {
     return (
-        <div className="container-header">
+        <div className="container">
+            <div className="header-container">
             <Nav />
             {/* <MobileNav /> */}
             <div className="background-image">
-                <h2>👋 hi, I'm Dorcas</h2>
-                <p>full stack developer</p>
+               <span>developer</span>
+             
             </div>
+            <div className="background">
+                <span>I'm a</span>
+                <h1>Backend software developer.</h1>
+                <button>previous projects</button>
+              </div>
         </div>
+        </div>
+        
     )
 }

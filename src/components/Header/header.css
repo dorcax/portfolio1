@@ -1,42 +1,85 @@
-.container-header{
-    background: url(../../assets/background6.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height:800px;
-    overflow: hidden;
-    position: relative;
-    
-    
 
-    
-    
+/* Base styling for the header */
+.container {
+    width: 100%;
+    max-width: 100%; /* Full width by default */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* Add padding for better spacing */
+    padding-right: 1rem;
+    box-sizing: border-box;
+    overflow :hidden;
+    position: relative;
 }
-.background-image{
-    color: #fff;
+
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    overflow: hidden;
+    color: white;
+}
+
+
+/* Background image styling with border */
+.background-image {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-25deg) skew(-10deg);
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 200px;
+    text-transform: uppercase;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20% ;
-    
+    white-space: nowrap;
+    z-index: 1;
+    opacity: 0.2;
+    user-select: none;
+
+    padding: 20px;
+    border-radius: 10px;
 }
-.background-image h2{
-    text-transform: capitalize;
-    font-size: 4rem;
-    text-align: center;
-    letter-spacing: 0.5rem;
-    
+
+/* Styling for h2 inside background-image */
+.background  {
+
+    text-align: start;
+    color: rgba(255, 255, 255, 0.7); /* Slightly visible text */
+    margin: 0;
+    width: 350px;
+    padding:140px 50px ;
+    /* position:absolute;
+    left: 20px; */
 }
-.background-image p{
-    text-transform: capitalize;
-    font-size: 1.5rem;
-    line-height: 1;
-    /* font-weight: 400; */
-    /* margin-left: 8rem; */
-    
+.background span{
+    font-size: 20px;
 }
+
+.background h1{
+    font-size:5rem;
+    text-transform: uppercase;
+    line-height:1.1 ;
+}
+.background button{
+    padding: 12px;
+    width: 200px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(15,15,119,1) 50%);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: large;
+    margin:20px 0 ;
+}
+
+
+
 /* ............................medis queries(medium devics) */
 @media screen  and (max-width:680px){
     .background-image{
