@@ -13,7 +13,7 @@ export default function Header() {
             </div>
             <div className="background">
                 <span>I'm a</span>
-                <h1>Backend software developer.</h1>
+                <h1>fullstack developer.</h1>
                 <button>previous projects</button>
               </div>
         </div>

@@ -21,10 +21,12 @@
 }
 .passion-image .passion-img{
     display: grid;
-    grid-template-columns:repeat(3,300px);
+    /* grid-template-columns:repeat(3,400px); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: center;
     align-items: center;
     gap: 20px;
+   
     
     
     
@@ -32,7 +34,7 @@
 }
 
 .passion-front-end {
-    margin-top: 3rem;
+    margin: 3rem;
     border-radius: 20px;
     text-align: center;
     margin-bottom: 3rem;
@@ -40,6 +42,8 @@
     /* z-index: 1; */
     background-color: black;
     overflow: hidden;
+    border: 2px solid #31b1cb;
+
 }
 
 
@@ -51,6 +55,7 @@
     justify-content: center;
     align-items: center;
     gap: 14px;
+   
 }
 .passion-front-end img{
     width: 50px;
@@ -82,10 +87,10 @@
    
     
 }
-    .passion-image .passion-img{  
-    grid-template-columns: repeat(1,1fr);
-      gap: 4px;
-      
+  
+.passion-front-end img{
+    width: 70px;
+
 }
 .passion-front-end h2{
    

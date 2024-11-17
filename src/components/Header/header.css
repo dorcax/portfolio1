@@ -15,7 +15,6 @@
 .header-container {
     position: relative;
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -55,8 +54,7 @@
     margin: 0;
     width: 350px;
     padding:140px 50px ;
-    /* position:absolute;
-    left: 20px; */
+  
 }
 .background span{
     font-size: 20px;
@@ -82,23 +80,5 @@
 
 /* ............................medis queries(medium devics) */
 @media screen  and (max-width:680px){
-    .background-image{
-    position: absolute;
-    left:-25%;
-    padding-top: 50% ;
-    
-}
-   .background-image h2{
-    font-size:4rem;
-    /* padding-left: 2rem; */
-        
-    
-}
-.background-image p{
-    font-size: 1.8rem;
-    line-height: 1.2;
-    padding-left: 4rem;
-    
-    
-}
+
 }
