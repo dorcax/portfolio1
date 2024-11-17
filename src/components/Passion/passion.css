@@ -3,7 +3,7 @@
     max-width: 100%; /* Full width by default */
     margin-left: auto;
     margin-right: auto;
-    padding-left: 2rem; /* Add padding for better spacing */
+    padding-left: 2rem;
     padding-right: 2rem;
     box-sizing: border-box;
     overflow :hidden;
@@ -12,17 +12,17 @@
 }
 .passion-text{
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 10px;
     text-transform: uppercase;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 2.5rem;
     font-weight: 300;
     
 }
 .passion-image .passion-img{
     display: grid;
     /* grid-template-columns:repeat(3,400px); */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -81,13 +81,31 @@
     
 }
 @media screen  and (max-width:680px){
-    .passion-text{
-   
-    padding-bottom: 2rem;
-   
     
-}
-  
+    
+    .passion-container{
+       
+        padding-left: 10px; 
+         padding-right: 10px;
+        
+    }
+    .passion-text{
+      
+        padding: 25px;
+       font-weight: 0px;
+        font-size: 2rem;
+       
+        
+    }
+    .passion-image .passion-img{
+     
+        gap: 0px;
+       
+        
+        
+        
+    
+    }
 .passion-front-end img{
     width: 70px;
 

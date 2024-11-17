@@ -87,16 +87,32 @@
 /* Mobile view adjustments */
 @media screen and (max-width: 680px) {
 
+    .mainproject h2 {
+        font-size: 2rem;
+        padding: 25px;
+    
+        
+        
+    }
 
+  
+    .project-text {
+    
+        font-size: 18px;
+      width: 350px;
+        padding: 5px;
+     
+    }
+    .project-image2 {
+        width: 100%;
+      
+        padding: 20px;
+      
+    }
     .project-data .project-image {
         width: 100%;
         /* height: 400px; */
         margin-bottom: 30px;
-    }
-    .project-text {
-       /* width: 600px; */
-        font-size: 23px;
-        
     }
 
 }

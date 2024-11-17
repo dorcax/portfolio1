@@ -7,7 +7,7 @@ export default function About() {
         <div>
           <h2>about me </h2>
           <div className="about-text">
-            <p className="text">
+            <p >
               I am an innovative and strategic software developer with an
               experience in both client-side and server-side development and
               database design. I have an analytical mindset and a deep

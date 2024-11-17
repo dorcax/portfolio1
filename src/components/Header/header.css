@@ -80,5 +80,21 @@
 
 /* ............................medis queries(medium devics) */
 @media screen  and (max-width:680px){
+    .background h1{
+        font-size:3rem;
+        text-transform: uppercase;
+        line-height:1.1 ;
+     }
+    
+    
+    
+     .background  {
 
-}
+        text-align: start;
+        color: rgba(255, 255, 255, 0.7); /* Slightly visible text */
+        margin: 0;
+        width: 350px;
+        padding:80px 5px ;
+      
+    }}
+   
